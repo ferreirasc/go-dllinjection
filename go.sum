@@ -1,0 +1,6 @@
+github.com/mitchellh/go-ps v1.0.0 h1:i6ampVEEF4wQFF+bkYfwYgY+F/uYJDktmvLPf7qIgjc=
+github.com/mitchellh/go-ps v1.0.0/go.mod h1:J4lOc8z8yJs6vUwklHw2XEIiT4z4C40KtWVN3nvg8Pg=
+go.zoe.im/injgo v0.0.2 h1:91G87fyEL/L8v20D0zbjTefRkR/rcUt6viLfiZYKemc=
+go.zoe.im/injgo v0.0.2/go.mod h1:QkODc0P0qMXQW/okPMr3nmCy3CqtuiPT2+q+9U1UeJk=
+golang.org/x/sys v0.0.0-20220315194320-039c03cc5b86 h1:A9i04dxx7Cribqbs8jf3FQLogkL/CV2YN7hj9KWJCkc=
+golang.org/x/sys v0.0.0-20220315194320-039c03cc5b86/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
